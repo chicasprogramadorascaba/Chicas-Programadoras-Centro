@@ -1,113 +1,12 @@
-body{ 
-    font-family: 'Roboto', sans-serif;
-}
-
-#navigation{
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 1.2rem;
-    color: white;
-}
-
-@media (min-width: 768px) {
-    .navbar-brand.abs
-        {
-            position: absolute;
-            width: 100%;
-            left: 0;
-            text-align: center;
-        }
-    }
-/*Seccion 1*/
-
-#azul{
+#presentation-banner, #presentation-card, #presentation-img {
     background-color: #32A7FD;
-}
-    
-#foto_de_perfil{
-    border-radius: 50%;
-    width: 20%;
-    height: auto;
-    margin-top: 2%;
-    margin-bottom: 1%;
-  }
-
-  #nombre_de_usuario{
-      font-size: 678%;
-  }
-
-  .descripcion{
-      color:white;
-      font-size: 200%;
-      text-align: center;
-      margin-left: 20%;
-      margin-right: 20%;
-  }
-
-/*Seccion 2*/
-
-#proyectos{
-    font-size: 550%;
-    color:#FF7A00;
-}
-
-#carouselExampleIndicators{
-    width: 25%;
-    margin: 30px auto;
-  }
-
-/*Seccion 3*/
-
-#naranja{
-    background-color: #FF7A00;
-}
-
-#quien{
-    color:white;
-    font-size: 550%;
-}
-
-#info{
-    color:white;
-      font-size: 150%;
-      text-align: center;
-      margin-left: 20%;
-      margin-right: 20%;
-}
-
-/*Seccion 4*/
-
-#contacto{
-    text-decoration: underline;
-}
-
-
-.rectangle {
-    width: 50%;
-    height: 3em;
-    border: 3px solid #303C66
-    background-color: #ffffff;
-    box-sizing: border-box;
-
-  }
-
-#submit{
-    width: 20%;
-    height: 3em;
-    background: #61BDFF;
-    color: white;
-    font-size: 20px;
-    border: 5px solid #FFFFFF;
-
-}
-
-#footer{
-    color: white;
-    background-color: #343a40;
     text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem; 
-    
 }
-    
+
+#projects-banner {
+    text-align: center;
+}
+
+img.project-img {
+
+}
