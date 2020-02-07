@@ -44,6 +44,12 @@ body{
     font-size: 250%;
 }
 
+/* 
+#carouselExampleIndicators{
+    width: 25%;
+    margin: 30px auto;
+  } */
+
 #projects-banner {
     text-align: center;
 }
