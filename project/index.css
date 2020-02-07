@@ -1,23 +1,34 @@
 body{ 
     font-family: 'Roboto', sans-serif;
+    width: 100% !important;
+    
 }
 
 #navigation{
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     color: white;
+}
+
+.custom-nav-link {
+    transition: 0.01s;
+}
+
+.custom-nav-link:hover {
+    color: #32A7FD !important;
+    transition: 0.01s;
 }
 
 @media (min-width: 768px) {
     .navbar-brand.abs
-        {
-            position: absolute;
-            width: 100%;
-            left: 0;
-            text-align: center;
-        }
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
     }
+}
 
 /*seccion 1*/
 
@@ -34,7 +45,7 @@ body{
 #descripcion{
     color:white;
     font-size: 105%;
-    
+
 }
 
 /*seccion 2*/
@@ -68,15 +79,15 @@ body{
 
 #info{
     color:white;
-      text-align: center;
-      margin-left: 20%;
-      margin-right: 20%;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 /*Seccion 4*/
 
 #contacto{
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 250%;
 }
 
@@ -84,29 +95,42 @@ body{
 .rectangle {
     width: 50%;
     height: 3em;
-    border: 3px solid #303C66
+    border: 1px solid grey;
     background-color: #ffffff;
     box-sizing: border-box;
+}
 
-  }
-
-#submit{
-    width: 10%;
-    height: 3em;
-    background: #61BDFF;
+.submit{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #32A7FD;
     color: white;
     font-size: 20px;
-    border: 5px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+    transition: 0.09s;
+}
 
+.submit:hover {
+    background-color: rgba(0,0,0,0);
+    color: #32A7FD;
+    border: 2px solid #32A7FD ;
+    transition: 0.09s;
+}
+
+input {
+    transition: 0.05s;
+}
+
+input:focus {
+    border: 2px solid #61BDFF;
+    transition: 0.05s;
 }
 
 #footer{
     color: white;
     background-color: #343a40;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem; 
-    
 }
-    
+
