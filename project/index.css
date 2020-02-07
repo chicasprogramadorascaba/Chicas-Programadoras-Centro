@@ -28,13 +28,12 @@ body{
 
 
 #nombre_de_usuario{
-    font-size: 200%;
+    font-size: 270%;
 }
 
-.descripcion{
+#descripcion{
     color:white;
-    font-size: 500%;
-    text-align: center;
+    font-size: 105%;
     
 }
 
@@ -42,6 +41,7 @@ body{
 
 #naranja{
     color:#FF7A00;
+    font-size: 250%;
 }
 
 #projects-banner {
@@ -57,6 +57,7 @@ body{
 
 #quien{
     color:white;
+    font-size: 250%;
 }
 
 #info{
@@ -70,6 +71,7 @@ body{
 
 #contacto{
     text-decoration: underline;
+    font-size: 250%;
 }
 
 
