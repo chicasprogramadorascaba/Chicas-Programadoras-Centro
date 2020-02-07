@@ -1,2 +1,2 @@
 # Chicas-Programadoras-Centro
-# Primer proyecto de Chicas Programadoras (ICANA Centro) Club de Verano 2020 :)
+Primer proyecto de Chicas Programadoras (ICANA Centro) Club de Verano 2020 :)
